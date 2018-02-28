@@ -1,5 +1,0 @@
-# Bio 
-
-# Projects 
-
-# Experience 
