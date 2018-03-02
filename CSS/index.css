@@ -1,0 +1,21 @@
+
+
+.skill-container {
+border: 5px black solid;
+display: flex;
+flex-flow: wrap;
+}
+
+.skill {
+  margin: 20px;
+  padding: 10px;
+}
+
+.card-image {
+  width: 100%;
+  max-width: 300px;
+}
+
+.card .card-image .card-title {
+  color: black
+}
