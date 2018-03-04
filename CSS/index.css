@@ -5,7 +5,7 @@
   max-width: 1500px;
 }
 .landing {
-  height: 700px;
+  height: 70vh;
   display:flex;
   flex-flow: column;
   align-items: flex-end;
@@ -120,4 +120,52 @@ margin:auto;
   max-width: 500px;
   max-height: 300px;
   overflow:scroll;
+}
+
+.skillHeader {
+  display: flex;
+  align-content: flex-start;
+  height: 12vh;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+}
+
+.projectHeader {
+  display: flex;
+  align-content: flex-start;
+  height: 12vh;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+}
+
+.experienceHeader {
+  display: flex;
+  align-content: flex-start;
+  height: 12vh;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+}
+
+.educationHeader {
+  display: flex;
+  align-content: flex-start;
+  height: 12vh;
+  background-color: black;
+  color: white;
+  margin-top: 25px;
+}
+
+@media only screen and (max-width: 1100px) {
+  .landing {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("#");
+    height: 500px;
+  }
+  .landing-text {
+    margin: auto;
+  }
 }
