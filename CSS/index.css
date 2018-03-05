@@ -109,10 +109,6 @@ max-width: 200px;
 margin:auto;
 }
 
-.nav-wrapper {
-  background-color: black;
-}
-
 .modal.modal-fixed-footer {
   width: 100%;
   max-width: 500px;
@@ -154,6 +150,12 @@ margin:auto;
   background-color: black;
   color: white;
   margin-top: 25px;
+}
+.page-footer {
+  background-color: black;
+}
+.nav-wrapper {
+  background-color: black;
 }
 
 @media only screen and (max-width: 1200px) {
